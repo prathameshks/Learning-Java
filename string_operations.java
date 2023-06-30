@@ -30,6 +30,7 @@ public class string_operations {
         System.out.println(name.indexOf("than")); // get the index of the first occurrence of substring "than" in name
 
         String s1 = "Sample String";
+        String s3 = "sample string";
         String s = "  sample  2  ";
 
         System.out.println(s1.substring(2, 7)); // get the substring of s1 starting at index 2 and ending at index 7
@@ -41,6 +42,8 @@ public class string_operations {
         System.out.println(s.trim()); // remove leading and trailing whitespace from s
 
         System.out.println(s.equals(s1)); // check if s is equal to s1
+
+        System.out.println(s1.equalsIgnoreCase(s3));
 
         System.out.println(s.compareTo(s1)); // compare s and s1 lexicographically
         System.out.println("c".compareTo("b")); // compare "c" and "b" lexicographically
